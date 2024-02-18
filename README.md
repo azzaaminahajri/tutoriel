@@ -73,7 +73,9 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_ensemble:
     print(f"Index {index}: {ligne}")
 ```
-#captureensemble <br>
+#captureensemble
+<br>
+Exemple 3
 ```python
 import csv
 
