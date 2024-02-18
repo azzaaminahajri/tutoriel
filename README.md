@@ -6,7 +6,7 @@ Cette fonction permet de parcourir les données d'une maniére simple à l'inver
 Par exemple dans le développement logiciel cette fonction est précieuse pour traiter les données avec clarté , améliorant ainsi la robustesse et la maintenabilité du code tout en facilitant le travail avec les séquences de données.
 # Contexte 
 
-La nécessité de manipuler d'une maniére efficace les données et d'avoir accés à leurs indices s'avére être un élément incontournable,le parcours d'une liste d'éléments et l'analyse des ensembles de données ou le traitement des informations structurés,la fonction enumerate met à la dispositon des développeurs une solution efficace et élégante.
+La nécessité de manipuler d'une maniére efficace les données et d'avoir accés à leurs indices s'avére être un élément incontournable,Que ce soit pour le parcours d'une liste d'éléments et l'analyse des ensembles de données ou le traitement des informations structurés,la fonction enumerate met à la dispositon des développeurs une solution efficace et élégante.
 L'utilisation appropriée de enumerate renforce la maniére dont on gére des informations et favorise la réalisation des objectifs organisationnels dans un environnement professionnel exigeant.
 
 
@@ -24,6 +24,30 @@ Suppression de certains éléments d'une liste tout en parcourant)
  Afin de suivre ce tutoriel,il est important d'avoir des connaissances de base en Python, notamment sur les concepts suivants:
  Les conteneurs sous python.
  Les fonctions en python.
+# Premiére utilisation avec enumerate dans le conteneur liste
+Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.
+```python
+#faire appel au module csv 
+import csv
+
+# Lecture du fichier CSV dans un DataFrame
+data =('C:/Users/Hp/Desktop/nychousing.csv')
+# Liste pour stocker le contenu du fichier CSV
+contenu_csv = []
+
+
+# Parcourir le fichier CSV et lire son contenu
+with open(data, newline='') as csvfile:
+    lecteur_csv = csv.reader(csvfile, delimiter=',')
+    for index, ligne in enumerate(lecteur_csv):
+        # Ajouter la ligne à la liste avec son numéro d'index
+        contenu_csv.append((index, ligne))
+
+# Afficher le contenu de la liste avec la fonction enumerate
+for index, ligne in contenu_csv:
+    print(f"Index {index}: {ligne}")
+```
+
 
  
  
