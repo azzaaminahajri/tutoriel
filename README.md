@@ -129,7 +129,7 @@ vous pouvez installer pandas en exécutant la commande suivante dans le terminal
 ```python
 pip install pandas
 ```
-
+# Les bonnes pratiques pour la manipulation efficace des données 
 
 
 
