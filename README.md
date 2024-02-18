@@ -47,8 +47,8 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
-https://github.com/azzaaminahajri/tutoriel/issues/1#issue-2140690407
-![00]
+![00]https://github.com/azzaaminahajri/tutoriel/issues/1#issue-2140690407
+
 
  
  
