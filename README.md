@@ -47,7 +47,7 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
-
+![00]
 
  
  
