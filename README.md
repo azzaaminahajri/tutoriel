@@ -12,13 +12,10 @@ L'utilisation appropriée de enumerate renforce la maniére dont on gére des in
 
 Afin de mieux découvrir la fonction enumerate nous allons explorer les données d'un fichier csv nommé "New york city housing" et parcourir les éléments de ce fichiers mais sous la forme 
 de tout les conteneurs (listes/ensembles/dictionnaires/tuples).
-nous allons aussi explorer les situations courantes où la fonction enumerate peut être utile telles que:
-(L'itération avec un accès aux index/
-La modification d'une séquence pendant l'itération/
-L'Affichage des éléments avec leurs indices/
-Création d'un dictionnaire à partir d'une liste avec des indices/ 
-Comparaison de deux listes avec des indices/
-Suppression de certains éléments d'une liste tout en parcourant)
+nous allons aussi explorer les situations courantes où la fonction enumerate peut être utile telles que:<br>
+L'itération avec un accès aux index<br>
+L'Affichage des éléments avec leurs indices
+
 
 # Connaissances Préalables
  Afin de suivre ce tutoriel,il est important d'avoir des connaissances de base en Python, notamment sur les concepts suivants:
