@@ -52,7 +52,7 @@ for index, ligne in contenu_csv:
 #capture liste 
 comme nous le montre la  photo du terminal dan pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat 
 nous pouvons voir que la fonction enumerate  associe chaque élément de la liste à son index correspondant.
-Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des liste nous allons manipuler des ensembles.
+Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des liste nous allons manipuler des ensembles.<br>
 Exemple 2 :
 ```python
 import csv
