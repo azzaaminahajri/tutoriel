@@ -75,7 +75,7 @@ for index, ligne in contenu_ensemble:
 ```
 #captureensemble
 <br>
-Exemple 3
+Exemple 3:
 ```python
 import csv
 
@@ -97,6 +97,9 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
+Dans cet exemple nous avons parcouru et lu le fichier csv et obtenu son contenu qu'on a stocké dans un tuple qui se définit comme une collection immuables ce qui signifie qu'une fois créés, ils ne peuvent pas être modifiés à l'inverse des ensembles qui sont des collections mutables.
+<br>
+Exemple 4
 
 
 
