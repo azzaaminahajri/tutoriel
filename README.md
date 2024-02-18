@@ -21,8 +21,8 @@ L'Affichage des éléments avec leurs indices
  Afin de suivre ce tutoriel,il est important d'avoir des connaissances de base en Python, notamment sur les concepts suivants:<br>
  Les conteneurs sous python(listes/dictionnaires/ensembles/tuples).<br>
 # Premiére utilisation avec enumerate dans les conteneur pythons
-Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.
-afin d'avoir accés au contenu du fichier csv nous devons faire appel au module csv.<br>
+Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.<br>
+Pour avoir accés au contenu du fichier csv nous devons faire appel au module csv.<br>
 Exemple 1 :
 ```python
 #faire appel au module csv 
@@ -46,9 +46,9 @@ for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
 #capture liste 
-comme nous le montre la  photo du terminal dans pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat 
+comme nous le montre la  photo du terminal dans pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat
 nous pouvons voir que la fonction enumerate  associe chaque élément de la liste à son index correspondant.
-Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des liste nous allons manipuler des ensembles.<br>
+Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des listes nous allons manipuler des ensembles.<br>
 Exemple 2 :
 ```python
 import csv
@@ -93,9 +93,9 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
-Dans cet exemple nous avons parcouru et lu le fichier csv et obtenu son contenu qu'on a stocké dans un tuple qui se définit comme une collection immuables ce qui signifie qu'une fois créés, ils ne peuvent pas être modifiés à l'inverse des ensembles qui sont des collections mutables.
+Dans cet exemple nous avons parcouru et lu le fichier csv et obtenu son contenu qu'on a stocké dans un tuple qui se définit comme une collection immuable ce qui signifie qu'une fois créé, il ne peut pas être modifié à l'inverse de l'ensemble qui est une collection mutable.
 <br>
-L'exemple suivant est un peu complexe par rapport au exepmles précédents , en effet dans cet exemple nous allons parcourir un fichier csv et ajouter son contenu dans un dictionnaire par la suite nous allons extraire seulement les données des logements situés dans l'état nommé 'FORREST HILLS' ,grâce à la fonction enumerate nous pouvons accéder à l'indice des lignes du fichiers.
+L'exemple suivant est un peu plus complexe par rapport au exepmles précédents , en effet dans cet exemple nous allons parcourir un fichier csv et ajouter son contenu dans un dictionnaire par la suite nous allons extraire seulement les données des logements situés dans l'état nommé 'FORREST HILLS' ,grâce à la fonction enumerate nous pouvons accéder à l'indice des lignes du fichiers.
 <br>
 Exemple 4 :
 ```python
