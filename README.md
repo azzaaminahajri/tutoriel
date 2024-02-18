@@ -6,5 +6,6 @@ Cette fonction permet de parcourir les données d'une maniére simple à l'inver
 Par exemple dans le développement logiciel cette fonction est précieuse pour traiter les données avec clarté , améliorant ainsi la robustesse et la maintenabilité du code tout en facilitant le travail avec les séquences de données.
 
 # Connaissances Préalables
+ Afin de suivre ce tutoriel,il est nécessaire de posséder des connaissances de base en Python, notamment sur les concepts suivants:
 
 
