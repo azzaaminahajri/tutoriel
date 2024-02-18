@@ -26,7 +26,7 @@ Suppression de certains éléments d'une liste tout en parcourant)
  Les fonctions en python.
 # Premiére utilisation avec enumerate dans les conteneur pythons
 Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.
-afin d'avoir accés au contenu du fichier csv nous devons faire appel au module csv.
+afin d'avoir accés au contenu du fichier csv nous devons faire appel au module csv.<br>
 Exemple 1 :
 ```python
 #faire appel au module csv 
