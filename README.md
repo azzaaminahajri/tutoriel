@@ -99,7 +99,42 @@ for index, ligne in contenu_csv:
 ```
 Dans cet exemple nous avons parcouru et lu le fichier csv et obtenu son contenu qu'on a stocké dans un tuple qui se définit comme une collection immuables ce qui signifie qu'une fois créés, ils ne peuvent pas être modifiés à l'inverse des ensembles qui sont des collections mutables.
 <br>
-Exemple 4
+L'exemple suivant est un peu complexe par rapport au exepmles précédents , en effet dans cet exemple nous allons parcourir un fichier csv et ajouter son contenu dans un dictionnaire par la suite nous allons extraire seulement les données des logements situés dans l'état nommé 'FORREST HILLS' ,grâce à la fonction enumerate nous pouvons accéder à l'indice des lignes du fichiers.
+<br>
+Exemple 4 :
+```python
+import pandas as pd
+
+# Lecture du fichier CSV dans un DataFrame
+data = pd.read_csv('C:/Users/Hp/Desktop/nychousing.csv')
+
+# Affichage des premières lignes du DataFrame
+print(data.head())
+print("succés")
+
+
+
+
+dictionnairedata=data.to_dict(orient='records')
+print(dictionnairedata)
+print(type(dictionnairedata))
+for indice, element in enumerate(dictionnairedata):
+    #print(f"Indice : {indice}")
+    for cle, valeur in element.items():
+        #print(f"    key : {cle}, Value : {valeur}")
+        for element in dictionnairedata:
+            if 'Forest Hills' in element['STATE']:
+                print("Indice:", dictionnairedata.index(element))
+                for k, v in element.items():
+                    print(f"    key : {k}, Value : {v}")
+```
+comme on peut le voir nous avons installé la bibliothéque pandas qui prend en charge la lecture et l'écriture de données à partir de divers formats de fichiers, notamment CSV, Excel, SQL, HDF5, JSON, HTML etc.. 
+vous pouvez installer pandas en exécutant la commande suivante dans le terminal de votre environnement de développement intégré (IDE)
+```python
+pip install pandas
+```
+
+
 
 
 
