@@ -5,4 +5,6 @@ Python propose la fonction enumerate qui se qualifie comme un outil puissant pou
 Cette fonction permet de parcourir les données d'une maniére simple à l'inverse de certains langages de programmation où il faut gérer manuellement les indices lors de l'itération sur une structure de données , la fonction enumerate associe chaque élément d'une séquence à son index correspondant,Cette approche permet aux développeurs de traiter les données de manière plus lisible, en évitant les erreurs potentielles liées à la gestion manuelle des indices.
 Par exemple dans le développement logiciel cette fonction est précieuse pour traiter les données avec clarté , améliorant ainsi la robustesse et la maintenabilité du code tout en facilitant le travail avec les séquences de données.
 
+#Connaissances Préalables
+
 
