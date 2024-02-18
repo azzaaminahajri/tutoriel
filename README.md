@@ -50,7 +50,7 @@ for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
 #capture liste 
-comme nous le montre la  photo du terminal dan pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat 
+comme nous le montre la  photo du terminal dans pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat 
 nous pouvons voir que la fonction enumerate  associe chaque élément de la liste à son index correspondant.
 Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des liste nous allons manipuler des ensembles.<br>
 Exemple 2 :
@@ -73,7 +73,28 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_ensemble:
     print(f"Index {index}: {ligne}")
 ```
-#captureensemble
+#captureensemble <br>
+```python
+import csv
+
+# Chemin vers le fichier CSV
+data = ('C:/Users/Hp/Desktop/nychousing.csv')
+# Créer une liste pour stocker le contenu du fichier CSV sous forme de tuple
+contenu_csv = []
+
+# Parcourir le fichier CSV et lire son contenu
+with open(data, newline='') as csvfile:
+    lecteur_csv = csv.reader(csvfile)
+    for index, ligne in enumerate(lecteur_csv):
+        # Convertir chaque élément de la ligne en tuple
+        tuple_ligne = tuple(ligne)
+        # Ajouter le tuple de ligne à la liste avec son numéro d'index
+        contenu_csv.append((index, tuple_ligne))
+
+# Afficher le contenu du tuple avec la fonction enumerate
+for index, ligne in contenu_csv:
+    print(f"Index {index}: {ligne}")
+```
 
 
 
