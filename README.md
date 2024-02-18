@@ -19,8 +19,7 @@ L'Affichage des éléments avec leurs indices
 
 # Connaissances Préalables
  Afin de suivre ce tutoriel,il est important d'avoir des connaissances de base en Python, notamment sur les concepts suivants:<br>
- Les conteneurs sous python.<br>
- Les fonctions en python.
+ Les conteneurs sous python(listes/dictionnaires/ensembles/tuples).<br>
 # Premiére utilisation avec enumerate dans les conteneur pythons
 Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.
 afin d'avoir accés au contenu du fichier csv nous devons faire appel au module csv.<br>
