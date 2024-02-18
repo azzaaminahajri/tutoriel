@@ -24,8 +24,10 @@ Suppression de certains éléments d'une liste tout en parcourant)
  Afin de suivre ce tutoriel,il est important d'avoir des connaissances de base en Python, notamment sur les concepts suivants:
  Les conteneurs sous python.
  Les fonctions en python.
-# Premiére utilisation avec enumerate dans le conteneur liste
+# Premiére utilisation avec enumerate dans les conteneur pythons
 Dans cet exemple nous pouvons voir comment parcourir et accéder aux éléments d'un fichier csv en stockant son contenu dans une liste tout en utilisant la fonction enumerate.
+afin d'avoir accés au contenu du fichier csv nous devons faire appel au module csv.
+Exemple 1 :
 ```python
 #faire appel au module csv 
 import csv
@@ -47,7 +49,30 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
-![00]https://github.com/azzaaminahajri/tutoriel/issues/1#issue-2140690407
+#capture liste 
+comme nous le montre photo du terminal dan pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quabt à l'affichage du résultat 
+nous pouvons voir que la fonction enumerate  associe chaque élément de la liste à son index correspondant.
+Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des liste nous allons manipuler des ensembles.
+```python
+import csv
+# Définir le chemin vers le fichier CSV
+data = ('C:/Users/Hp/Desktop/nychousing.csv')
+
+# Créer un ensemble pour stocker le contenu du fichier CSV
+contenu_ensemble= set()
+
+# Parcourir le fichier CSV et lire son contenu
+with open(data, newline='') as csvfile:
+    lecteur_csv = csv.reader(csvfile)
+    for index, ligne in enumerate(lecteur_csv):
+        # Ajouter la ligne à l'ensemble
+        contenu_ensemble.add((index, tuple(ligne)))
+
+# Afficher le contenu de l'ensemble avec la fonction enumerate
+for index, ligne in contenu_ensemble:
+    print(f"Index {index}: {ligne}")
+```
+
 
 
  
