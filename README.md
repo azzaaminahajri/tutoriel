@@ -45,7 +45,7 @@ with open(data, newline='') as csvfile:
 for index, ligne in contenu_csv:
     print(f"Index {index}: {ligne}")
 ```
-#capture liste 
+![Captureliste](https://github.com/azzaaminahajri/tutoriel/assets/157635700/41b39c4d-736b-428f-a7bc-9b1461aa175b)
 comme nous le montre la  photo du terminal dans pycharm nous avons parcouru et lu le contenu du fichier csv qu'on a par la suite ajouter dans une liste vide , quant à l'affichage du résultat
 nous pouvons voir que la fonction enumerate  associe chaque élément de la liste à son index correspondant.
 Dans l'exemple suivant nous allons reproduire les mêmes étapes qu'on a fait à l'exemple précédent mais à la place des listes nous allons manipuler des ensembles.<br>
