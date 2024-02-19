@@ -69,9 +69,9 @@ for index, ligne in contenu_ensemble:
     print(f"Index {index}: {ligne}")
 ```
 ![Captureensemble](https://github.com/azzaaminahajri/tutoriel/assets/157635700/5218fafd-a980-42d4-a726-b25ceea9de9b)
-
 <br>
 Exemple 3:
+
 ```python
 import csv
 
