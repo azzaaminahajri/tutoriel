@@ -126,6 +126,8 @@ for indice, element in enumerate(dictionnairedata):
                 for k, v in element.items():
                     print(f"    key : {k}, Value : {v}")
 ```
+![Capturedict](https://github.com/azzaaminahajri/tutoriel/assets/157635700/c559df36-6753-4d30-bfd9-66b80a676082)
+
 comme on peut le voir nous avons installé la bibliothéque pandas qui prend en charge la lecture et l'écriture de données à partir de divers formats de fichiers, notamment CSV, Excel, SQL, HDF5, JSON, HTML etc.. 
 vous pouvez installer pandas en exécutant la commande suivante dans le terminal de votre environnement de développement intégré (IDE)
 ```python
