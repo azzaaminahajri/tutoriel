@@ -130,6 +130,18 @@ vous pouvez installer pandas en exécutant la commande suivante dans le terminal
 pip install pandas
 ```
 # Les bonnes pratiques pour la manipulation efficace des données 
+Voici quelques recommandation afin de bien manipuler la fonction enumerate dans le langage python :<br>
+-L'indice de départ de la fonction enumerate est par défaut 0 mais pour une utilisation plus optimale de cette fonction, nous pouvons spécifier l'indice de départ de la maniére suivante<br>
+```python
+types = ['Maison', 'Appartement', 'Condo', 'Villa', 'townhouse']
+
+for index, logement in enumerate(types_de_logements, start=1):
+    print(f'[{index}] {logement}')
+
+```
+<br>
+-Si dans votre programme python vous n'avez pas besoin de l'indice dans la boucle il est préférable de ne pas utiliser la fonction enumerate() et d'utiliser une simple boucle for ceci vous permettra de réduire le risque d'erreurs.
+
 # Les prérequis pour assurer la répétabilité du contenu
 # Transfert de Connaissances Vers Divers Contextes
 
