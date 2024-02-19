@@ -155,7 +155,7 @@ Ce tutoriel sur la fonction enumerate() se caractérise par une introduction pr�
 Durant ce tutoriel vous avez appris à assimiler les bases d'une des fonctionnalités fondamentale que python propose qui est la fonction enumerate(),en effet ce tutoriel vous montre comment parcourir des séquences tout en maintenant une référence d'index associée à chaque élément ,mais aussi l'extraction des données à partir d'un fichier csv,ainsi que l'installation du module pandas sur votre environnement virtuel,la focntion enumerate() est trés avantageuse car elle facilite la manipulation des données et rend le code plus lisible. elle permet aussi d'éviter les erreures qui sont liées à la gestion manuelle des index pendant les itérations sur des structures de données.
 # Comprendre l'Impact Personnel du Tutoriel sur la fonction enumerate()
 Ce tutoriel peut représenter une étape cruciale dans votre apprentissage de python car enumerate() est une fonctionnalité qui offre une méthode plus efficace pour manipluer et parcourir des structres de données et apporte de la clarté à votre code.<br>
-Ce tutoriel vous permettera d'explorer de nouvelles techniques de programmation dans le langage python.
+Ce tutoriel vous permettera d'explorer de nouvelles techniques de programmation dans le langage python et d'approfondir votre compréhension des structures de données.
 # Les Prochaines Étapes du Parcours d'Apprentissage dans la manipulation des données
 # Ressources bibiliographiques 
 
