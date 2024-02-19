@@ -1,4 +1,4 @@
-## Tutoriel:Qu'est-ce que la fonction enumerate: Pourquoi et comment l'utiliser?
+## Tutoriel: Qu'est-ce que la fonction enumerate() : Pourquoi et comment l'utiliser?
 # Introduction
 La manipulation de données avec Python est devenue une compétence essentielle dans de nombreux domaines,ce langage de programmation nous permet de réaliser tout le processus de modification ou de transformation des données afin d’en extraire des informations précieuses,ce processus repose souvent sur des concepts clés tels que la création de structures de données, l'indexation, le filtrage, le tri, le regroupement, l'agrégation et la transformation des données.
 Python propose la fonction enumerate qui se qualifie comme un outil puissant pour les développeurs,en effet sa principale tâche est de simplifier l'itération et la manipulation d'une séquence tout en conservant son index.
