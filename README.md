@@ -10,7 +10,7 @@ La nécessité de manipuler d'une maniére efficace les données et d'avoir acc�
 L'utilisation appropriée de *enumerate()* renforce la maniére dont on gére des informations et favorise la réalisation des objectifs organisationnels dans un environnement professionnel exigeant.
 
 
-Afin de mieux découvrir la fonction *enumerate()* nous allons explorer les données d'un fichier csv nommé "New york city housing" et parcourir les éléments de ce fichiers mais sous la forme de tout les conteneurs **(listes/ensembles/dictionnaires/tuples)**. 
+Afin de mieux découvrir la fonction *enumerate()* nous allons explorer les données d'un fichier csv nommé "New york city housing" et parcourir les éléments de ce fichier mais sous la forme de tout les conteneurs **(listes/ensembles/dictionnaires/tuples)**. 
 nous allons aussi explorer les situations courantes où la fonction enumerate peut être utile telles que:<br>
 L'itération avec un accès aux index<br>
 L'Affichage des éléments avec leurs indices
