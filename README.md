@@ -143,8 +143,9 @@ for index, logement in enumerate(types_de_logements, start=1):
 -Si dans votre programme python vous n'avez pas besoin de l'indice dans la boucle il est préférable de ne pas utiliser la fonction enumerate() et d'utiliser une simple boucle for ceci vous permettra de réduire le risque d'erreurs.
 
 # Les prérequis pour assurer la répétabilité du contenu
-# Transfert de Connaissances Vers Divers Contextes
-
+Afin de refaire le tutoriel suivant vous devez nécessairement posséder :
+<br> 
+**Un enivronnement de développment intégré comme Pycharm, anaconda(spyder),visual studio code**
 # Comprendre les Limites et Envisager les Prochaines Étape
 
 
