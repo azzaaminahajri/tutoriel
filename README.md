@@ -97,7 +97,7 @@ for index, ligne in contenu_csv:
 
 Dans cet exemple nous avons parcouru et lu le fichier csv et obtenu son contenu qu'on a stocké dans un tuple qui se définit comme une collection immuable ce qui signifie qu'une fois créé, il ne peut pas être modifié à l'inverse de l'ensemble qui est une collection mutable.
 <br>
-L'exemple suivant est un peu plus complexe par rapport au exepmles précédents , en effet dans cet exemple nous allons parcourir un fichier csv et ajouter son contenu dans un dictionnaire par la suite nous allons extraire seulement les données des logements situés dans l'état nommé 'FORREST HILLS' ,grâce à la fonction enumerate nous pouvons accéder à l'indice des lignes du fichiers.
+L'exemple suivant est un peu plus complexe par rapport au exemples précédents , en effet dans cet exemple nous allons parcourir un fichier csv et ajouter son contenu dans un dictionnaire par la suite nous allons extraire seulement les données des logements situés dans l'état nommé **'FORREST HILLS'** ,grâce à la fonction enumerate nous pouvons accéder à l'indice associé à chaque éléments.
 <br>
 Exemple 4 :
 ```python
