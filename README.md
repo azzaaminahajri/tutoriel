@@ -146,7 +146,19 @@ for index, logement in enumerate(types_de_logements, start=1):
 Afin de refaire le tutoriel suivant vous devez nécessairement posséder :
 <br> 
 **Un enivronnement de développment intégré comme Pycharm, anaconda(spyder),visual studio code**
+# Transfert des connaissances
 # Comprendre les Limites et Envisager les Prochaines Étape
+Ce tutoriel sur la fonction enumerate() se caractérise par une introduction préciseuse à cette fonctionnalité indispensable de python,il donne la possibilité aux apprenants de comprendre comment parcourir une séquence tout en conservant l'indice associé à chaque élément.Toutefois,malgré son utilité ce tutoriel ne couvre pas toutes les applications potentielles de la fonction enumerate() et ne résout pas tous les défis rencontrés dans des contextes plus avancés. Les limites de ce tutoriel résident dans son caractère introductif, car il ne  traite pas des optimisations de performances pour de très grandes séquences, des techniques avancées de manipulation de données, Pour explorer ces horizons, les apprenants peuvent être encouragés à poursuivre leur apprentissage à travers des ressources supplémentaires,afin d'approfondir leur compréhension de enumerate().
+# Synthése de la fonction enumerate()
+# Comprendre l'Impact Personnel du Tutoriel sur la fonction enumerate()
+# Les Prochaines Étapes du Parcours d'Apprentissage dans la manipulation des données
+# Ressources bibiliographiques 
+
+
+
+
+
+
 
 
 
