@@ -184,6 +184,7 @@ https://www.youtube.com/watch?v=EF6fqnnl3Uk
 https://www.youtube.com/watch?v=em3F1crPa7Y
 Langage de Programmation Evolué & Business Intelligence Dr. Anouer Bennajeh [https://drive.google.com/drive/folders/1EFzGDa4R_rC_6m_Ug3-oRgNKkynfn1B7?fbclid=IwAR2Hwt4Vi6HoYZBbEpNYCStH_t8od97nnLQ0vC3cQAvtwZrfqnpRARvyUGY]
 Système de recommandation :Définitions et Concepts de base Dr. Zahra KODIA AOUINA [https://drive.google.com/drive/recent?fbclid=IwAR2Hwt4Vi6HoYZBbEpNYCStH_t8od97nnLQ0vC3cQAvtwZrfqnpRARvyUGY]
+https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market
 L'utilisation de chat gpt
 
 
